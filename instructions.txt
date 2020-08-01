@@ -1,0 +1,21 @@
+~ Welcome to Painter ~
+
+usage: ./painter "filename"
+note: painter can take in a file that already exists
+      (so long as it is within size requirements and
+      only contains valid characters ('#', '.', '/', '\')),
+      or an empty file.
+
+Movement (uses default vim movement controls):
+left: h
+right: l
+up: k
+down: j
+
+Change brush: spacebar
+
+Paint: hold shift while using movement keys
+
+Save file: w/s. Press enter to save file
+
+Quit painter: Q
